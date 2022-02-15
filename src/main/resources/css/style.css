@@ -1,0 +1,115 @@
+/* Tło przycisków */
+#play {
+	-fx-background-image: url("../img/play.png");
+}
+
+#prev {
+	-fx-background-image: url("../img/prev.png");
+}
+
+#next {
+	-fx-background-image: url("../img/next.png");
+}
+
+#progressSlider .thumb{
+    -fx-background-color: darkorange;
+}
+
+#volumeSlider .thumb{
+    -fx-background-color: darkorange;
+}
+
+#progressSlider .thumb:hover{
+    -fx-background-color: #f06a0a;
+}
+
+#volumeSlider .thumb:hover{
+    -fx-background-color: #f06a0a;
+}
+
+.text-field{
+    -fx-background-color: #222;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view .placeholder{
+    -fx-background-color: #323232;
+}
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: darkorange;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell{
+    -fx-background-color: #333;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #222;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #bd3419;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background,
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+
+
+.table-view > .virtual-flow > .scroll-bar > .increment-button,
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+
+.button,
+.toggle-button {
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 70% 70%;
+	-fx-background-color: transparent;
+	-fx-opacity: 40%;
+}
+
+/* Przyciski po najechaniu */
+.button:hover,
+.toggle-button:hover,
+.toggle-button:selected {
+	-fx-opacity: 100%;
+}
